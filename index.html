@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunsutra | Rooftop Restro</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:#11110f;color:#f8f0df;font-family:Arial,sans-serif;line-height:1.6}
+nav{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;background:#11110f;border-bottom:1px solid #49391f;position:sticky;top:0}
+.logo{font-family:Georgia,serif;color:#e4bd70;font-size:24px;letter-spacing:3px}
+nav a{color:#f8f0df;text-decoration:none;margin-left:20px;font-size:13px}
+.hero{min-height:85vh;display:flex;align-items:center;padding:70px 9%;background:linear-gradient(90deg,#100f0de8,#100f0d45),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=85') center/cover}
+.hero div{max-width:650px}
+.tag{color:#e4bd70;letter-spacing:4px;font-size:12px}
+h1{font:clamp(48px,9vw,90px)/1.05 Georgia,serif;color:#e4bd70;margin:18px 0}
+.hero p{font-size:17px;color:#eee2cf;max-width:480px}
+.btn{display:inline-block;margin:25px 10px 0 0;padding:13px 23px;background:#d8b36a;color:#17130b;border-radius:30px;text-decoration:none;font-weight:bold;font-size:13px}
+.btn.alt{background:transparent;color:#f8f0df;border:1px solid #d8b36a}
+section{padding:75px 8%}
+h2{font:clamp(32px,5vw,48px) Georgia,serif;margin:10px 0 18px}
+.gold{color:#e4bd70}
+.intro{max-width:700px;color:#c8bfae}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
+.card{background:#1b1a16;border:1px solid #40331e;border-radius:8px;overflow:hidden}
+.card img{width:100%;height:210px;object-fit:cover;display:block}
+.card div{padding:20px}
+.card h3{font:24px Georgia,serif;color:#e4bd70;margin-bottom:7px}
+.card p{color:#c8bfae;font-size:14px}
+#about{background:#191813}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:25px}
+.gallery img{width:100%;height:250px;object-fit:cover;border-radius:5px}
+.booking{background:#201b12;text-align:center}
+.booking p{color:#d0c5b2;max-width:550px;margin:0 auto}
+footer{padding:35px 8%;border-top:1px solid #49391f;color:#bfb5a4;text-align:center;font-size:13px}
+footer a{color:#e4bd70}
+@media(max-width:700px){
+nav{padding:17px 5%;flex-wrap:wrap;gap:12px}
+nav a{margin-left:10px;font-size:12px}
+.logo{font-size:20px}
+.hero{min-height:75vh;padding:50px 7%}
+section{padding:55px 7%}
+.cards{grid-template-columns:1fr}
+.card img{height:230px}
+.gallery img{height:160px}
+}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">☼ SUNSUTRA</div>
+<div>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#menu">Menu</a>
+<a href="#gallery">Gallery</a>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<div>
+<div class="tag">ROOFTOP DINING · VARANASI</div>
+<h1>SUNSUTRA</h1>
+<p>Good Food. Great Vibes. Discover a beautiful dining experience made for unforgettable evenings, delicious food and good company.</p>
+<a class="btn" href="#booking">Reserve Your Table ↗</a>
+<a class="btn alt" href="#menu">Explore Menu</a>
+</div>
+</header>
+
+<section id="about">
+<div class="tag">THE SUNSUTRA EXPERIENCE</div>
+<h2>More Than Just <span class="gold">A Meal</span></h2>
+<p class="intro">A place to relax, reconnect and celebrate the little moments. Bring your friends, plan a dinner date or gather with family for a memorable time.</p>
+</section>
+
+<section id="menu">
+<div class="tag">A TASTE OF SUNSUTRA</div>
+<h2>Our <span class="gold">Favourites</span></h2>
+<p class="intro">Explore our sample menu categories. Actual dishes and prices can be added after confirmation with the restaurant.</p>
+<div class="cards">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Grilled food">
+<div><h3>Starters</h3><p>Delicious bites to start your evening.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=700&q=80" alt="Main course">
+<div><h3>Main Course</h3><p>Comforting favourites packed with flavour.</p></div>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80" alt="Pizza">
+<div><h3>Pizza & More</h3><p>Great food for sharing with friends.</p></div>
+</div>
+</div>
+<p style="color:#a99c85;font-size:12px;margin-top:18px">Demo menu only. Final items and prices need restaurant approval.</p>
+</section>
+
+<section id="gallery">
+<div class="tag">THE AMBIENCE</div>
+<h2>Moments Worth <span class="gold">Savouring</span></h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80" alt="Restaurant ambience">
+<img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=800&q=80" alt="Food presentation">
+</div>
+</section>
+
+<section class="booking" id="booking">
+<div class="tag">YOUR EVENING AWAITS</div>
+<h2>Let's Make It <span class="gold">Special</span></h2>
+<p>Planning a get-together or a special evening? Send us your reservation enquiry on Instagram.</p>
+<a class="btn" href="https://www.instagram.com/sunsutra_restro/" target="_blank" rel="noopener">Message Sunsutra ↗</a>
+</section>
+
+<footer>
+<p class="gold" style="font:25px Georgia,serif;margin-bottom:10px">SUNSUTRA</p>
+<p>Rooftop Restro · Varanasi</p>
+<p style="margin:10px 0">Location: <a href="https://www.google.com/maps/search/?api=1&query=Sunsutra+Restro+Varanasi" target="_blank" rel="noopener">Find Us on Google Maps</a></p>
+<p>Instagram: <a href="https://www.instagram.com/sunsutra_restro/" target="_blank" rel="noopener">@sunsutra_restro</a></p>
+<p style="margin-top:20px;font-size:11px">Unofficial demo website concept · Menu and details subject to confirmation</p>
+</footer>
+</body>
+  </html>
+  
